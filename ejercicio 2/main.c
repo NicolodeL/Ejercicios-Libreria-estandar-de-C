@@ -1,6 +1,6 @@
-//
-// Created by nicol on 17/12/2023.
-//
+#include <string.h>
+#include <stdio.h>
+
 int main() {
     return 0;
 }
