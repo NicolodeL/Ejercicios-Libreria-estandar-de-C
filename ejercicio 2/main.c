@@ -1,6 +1,9 @@
 #include <string.h>
 #include <stdio.h>
-
+void medir(char str[]) {
+    int longitud = strlen(str);
+    printf("La longitud de '%s' es: %d\n", str, longitud);
+}
 int main() {
     char str1[] = "Hola";
     char str2[] = "Mundo";
@@ -27,6 +30,10 @@ int main() {
     int length = strlen(str1);
 
     printf("La longitud de '%s' es: %d\n", str1, length);
+
+    int length2 = strlen(str2);
+
+    printf("La longitud de '%s' es: %d\n", str2, length);
 
     return 0;
 }
