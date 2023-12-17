@@ -6,7 +6,7 @@ int main() {
         printf("El archivo no se pudo abrir.\n");
         return 1;
     }
-    fclose(file);
+    fprintf(file, "Hola, mundo!\n");
 
     return 0;
 }
