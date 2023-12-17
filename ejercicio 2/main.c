@@ -24,5 +24,9 @@ int main() {
         printf("Las cadenas son diferentes.\n");
     }
 
+    int length = strlen(str1);
+
+    printf("La longitud de '%s' es: %d\n", str1, length);
+
     return 0;
 }
