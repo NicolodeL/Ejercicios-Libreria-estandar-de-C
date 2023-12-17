@@ -8,5 +8,9 @@ int main() {
     }
     fprintf(file, "Hola, mundo!\n");
 
+    char buffer[50];
+    fscanf(file, "%s", buffer);
+    printf("Leído del archivo: %s\n", buffer);
+
     return 0;
 }
