@@ -37,6 +37,6 @@ int main() {
 
     medir(str3);
     medir(str4);
-    
+
     return 0;
 }
