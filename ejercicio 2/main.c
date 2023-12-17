@@ -33,7 +33,10 @@ int main() {
 
     int length2 = strlen(str2);
 
-    printf("La longitud de '%s' es: %d\n", str2, length);
+    printf("La longitud de '%s' es: %d\n", str2, length2);
 
+    medir(str3);
+    medir(str4);
+    
     return 0;
 }
