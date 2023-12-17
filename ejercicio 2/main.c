@@ -18,7 +18,7 @@ int main() {
 
     int comparison2 = strcmp(str3, str4);
 
-    if (comparison == 0) {
+    if (comparison2 == 0) {
         printf("Las cadenas son iguales.\n");
     } else {
         printf("Las cadenas son diferentes.\n");
