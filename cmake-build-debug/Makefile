@@ -128,6 +128,19 @@ ejercicio_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_1.dir\build.make CMakeFiles/ejercicio_1.dir/build
 .PHONY : ejercicio_1/fast
 
+#=============================================================================
+# Target rules for targets named ejercicio_2
+
+# Build rule for target.
+ejercicio_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio_2
+.PHONY : ejercicio_2
+
+# fast build rule for target.
+ejercicio_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_2.dir\build.make CMakeFiles/ejercicio_2.dir/build
+.PHONY : ejercicio_2/fast
+
 ejercicio_1/main.obj: ejercicio_1/main.cpp.obj
 .PHONY : ejercicio_1/main.obj
 
@@ -152,6 +165,30 @@ ejercicio_1/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_1.dir\build.make CMakeFiles/ejercicio_1.dir/ejercicio_1/main.cpp.s
 .PHONY : ejercicio_1/main.cpp.s
 
+ejercicio_2/main.obj: ejercicio_2/main.c.obj
+.PHONY : ejercicio_2/main.obj
+
+# target to build an object file
+ejercicio_2/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_2.dir\build.make CMakeFiles/ejercicio_2.dir/ejercicio_2/main.c.obj
+.PHONY : ejercicio_2/main.c.obj
+
+ejercicio_2/main.i: ejercicio_2/main.c.i
+.PHONY : ejercicio_2/main.i
+
+# target to preprocess a source file
+ejercicio_2/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_2.dir\build.make CMakeFiles/ejercicio_2.dir/ejercicio_2/main.c.i
+.PHONY : ejercicio_2/main.c.i
+
+ejercicio_2/main.s: ejercicio_2/main.c.s
+.PHONY : ejercicio_2/main.s
+
+# target to generate assembly for a file
+ejercicio_2/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_2.dir\build.make CMakeFiles/ejercicio_2.dir/ejercicio_2/main.c.s
+.PHONY : ejercicio_2/main.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ejercicio_1
+	@echo ... ejercicio_2
 	@echo ... ejercicio_1/main.obj
 	@echo ... ejercicio_1/main.i
 	@echo ... ejercicio_1/main.s
+	@echo ... ejercicio_2/main.obj
+	@echo ... ejercicio_2/main.i
+	@echo ... ejercicio_2/main.s
 .PHONY : help
 
 
