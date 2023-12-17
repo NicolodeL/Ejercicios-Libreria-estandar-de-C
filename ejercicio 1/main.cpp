@@ -16,5 +16,10 @@ int main() {
 
     printf("El valor absoluto de %d es %d\n", num2, abs_num2);
 
+    srand(time(0));
+
+    int random_number = rand();
+    printf("Numero aleatorio: %d\n", random_number);
+
     return 0;
 }
