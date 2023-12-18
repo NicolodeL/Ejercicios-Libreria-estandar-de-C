@@ -7,7 +7,7 @@ int main() {
         printf("El archivo no se pudo abrir para escritura.\n");
         return 1;
     }
-    fprintf(file, "Hola, mundo!\n");
+    fprintf(file, "Hola_mundo!\n");
 
     fclose(file);
 
@@ -20,10 +20,8 @@ int main() {
     char buffer[50];
     fscanf(file, "%s", buffer);
 
-    // Muestra el contenido leído
-    printf("Leído del archivo: %s\n", buffer);
+    printf("Leido del archivo: %s\n", buffer);
 
-    // Cierra el archivo después de leer
     fclose(file);
 
 
