@@ -105,8 +105,8 @@
 					<DistClean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ejercicio_3">
-				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="ejercicio_3a">
+				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3a.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -121,14 +121,14 @@
 					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3"/>
+					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3a"/>
 					<CompileFile command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ejercicio_3/fast">
-				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="ejercicio_3a/fast">
+				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3a.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -143,7 +143,51 @@
 					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3/fast"/>
+					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3a/fast"/>
+					<CompileFile command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejercicio_3b">
+				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3b"/>
+					<CompileFile command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejercicio_3b/fast">
+				<Option output="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/ejercicio_3b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/nicol/Clase/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio_3b/fast"/>
 					<CompileFile command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/nicol/Clase/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -177,7 +221,10 @@
 			<Option target="ejercicio_2"/>
 		</Unit>
 		<Unit filename="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/ejercicio 3/main.c">
-			<Option target="ejercicio_3"/>
+			<Option target="ejercicio_3a"/>
+		</Unit>
+		<Unit filename="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/ejercicio 3/mainb.c">
+			<Option target="ejercicio_3b"/>
 		</Unit>
 		<Unit filename="C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -56,9 +58,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "ejercicio_3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ejercicio_3-Debug-112816bf5e9705eb3a4b.json",
-					"name" : "ejercicio_3",
+					"id" : "ejercicio_3a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_3a-Debug-ed698f833d13f2b6774e.json",
+					"name" : "ejercicio_3a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_3b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_3b-Debug-a5c81139a4fec58eeb0c.json",
+					"name" : "ejercicio_3b",
 					"projectIndex" : 0
 				}
 			]

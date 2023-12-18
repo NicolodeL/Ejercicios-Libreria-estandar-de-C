@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ejercicio_3.exe"
+			"path" : "ejercicio_3a.exe"
 		},
 		{
-			"path" : "ejercicio_3.pdb"
+			"path" : "ejercicio_3a.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "ejercicio_3::@6890427a1f51a3e7e1df",
+	"id" : "ejercicio_3a::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "ejercicio_3",
-	"nameOnDisk" : "ejercicio_3.exe",
+	"name" : "ejercicio_3a",
+	"nameOnDisk" : "ejercicio_3a.exe",
 	"paths" : 
 	{
 		"build" : ".",

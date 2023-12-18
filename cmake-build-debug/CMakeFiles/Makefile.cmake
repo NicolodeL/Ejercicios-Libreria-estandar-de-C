@@ -53,5 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ejercicio_1.dir/DependInfo.cmake"
   "CMakeFiles/ejercicio_2.dir/DependInfo.cmake"
-  "CMakeFiles/ejercicio_3.dir/DependInfo.cmake"
+  "CMakeFiles/ejercicio_3a.dir/DependInfo.cmake"
+  "CMakeFiles/ejercicio_3b.dir/DependInfo.cmake"
   )

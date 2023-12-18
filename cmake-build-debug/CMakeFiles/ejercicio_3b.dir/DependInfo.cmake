@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/ejercicio 3/main.c" "CMakeFiles/ejercicio_3.dir/ejercicio_3/main.c.obj" "gcc" "CMakeFiles/ejercicio_3.dir/ejercicio_3/main.c.obj.d"
-  "C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/ejercicio 3/mainb.c" "CMakeFiles/ejercicio_3.dir/ejercicio_3/mainb.c.obj" "gcc" "CMakeFiles/ejercicio_3.dir/ejercicio_3/mainb.c.obj.d"
+  "C:/Users/nicol/OneDrive/Documents/GitHub/Ejercicios-Libreria-estandar-de-C/ejercicio 3/mainb.c" "CMakeFiles/ejercicio_3b.dir/ejercicio_3/mainb.c.obj" "gcc" "CMakeFiles/ejercicio_3b.dir/ejercicio_3/mainb.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

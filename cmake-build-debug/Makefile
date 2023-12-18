@@ -142,17 +142,30 @@ ejercicio_2/fast:
 .PHONY : ejercicio_2/fast
 
 #=============================================================================
-# Target rules for targets named ejercicio_3
+# Target rules for targets named ejercicio_3a
 
 # Build rule for target.
-ejercicio_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio_3
-.PHONY : ejercicio_3
+ejercicio_3a: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio_3a
+.PHONY : ejercicio_3a
 
 # fast build rule for target.
-ejercicio_3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3.dir\build.make CMakeFiles/ejercicio_3.dir/build
-.PHONY : ejercicio_3/fast
+ejercicio_3a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3a.dir\build.make CMakeFiles/ejercicio_3a.dir/build
+.PHONY : ejercicio_3a/fast
+
+#=============================================================================
+# Target rules for targets named ejercicio_3b
+
+# Build rule for target.
+ejercicio_3b: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ejercicio_3b
+.PHONY : ejercicio_3b
+
+# fast build rule for target.
+ejercicio_3b/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3b.dir\build.make CMakeFiles/ejercicio_3b.dir/build
+.PHONY : ejercicio_3b/fast
 
 ejercicio_1/main.obj: ejercicio_1/main.cpp.obj
 .PHONY : ejercicio_1/main.obj
@@ -207,7 +220,7 @@ ejercicio_3/main.obj: ejercicio_3/main.c.obj
 
 # target to build an object file
 ejercicio_3/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3.dir\build.make CMakeFiles/ejercicio_3.dir/ejercicio_3/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3a.dir\build.make CMakeFiles/ejercicio_3a.dir/ejercicio_3/main.c.obj
 .PHONY : ejercicio_3/main.c.obj
 
 ejercicio_3/main.i: ejercicio_3/main.c.i
@@ -215,7 +228,7 @@ ejercicio_3/main.i: ejercicio_3/main.c.i
 
 # target to preprocess a source file
 ejercicio_3/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3.dir\build.make CMakeFiles/ejercicio_3.dir/ejercicio_3/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3a.dir\build.make CMakeFiles/ejercicio_3a.dir/ejercicio_3/main.c.i
 .PHONY : ejercicio_3/main.c.i
 
 ejercicio_3/main.s: ejercicio_3/main.c.s
@@ -223,8 +236,32 @@ ejercicio_3/main.s: ejercicio_3/main.c.s
 
 # target to generate assembly for a file
 ejercicio_3/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3.dir\build.make CMakeFiles/ejercicio_3.dir/ejercicio_3/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3a.dir\build.make CMakeFiles/ejercicio_3a.dir/ejercicio_3/main.c.s
 .PHONY : ejercicio_3/main.c.s
+
+ejercicio_3/mainb.obj: ejercicio_3/mainb.c.obj
+.PHONY : ejercicio_3/mainb.obj
+
+# target to build an object file
+ejercicio_3/mainb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3b.dir\build.make CMakeFiles/ejercicio_3b.dir/ejercicio_3/mainb.c.obj
+.PHONY : ejercicio_3/mainb.c.obj
+
+ejercicio_3/mainb.i: ejercicio_3/mainb.c.i
+.PHONY : ejercicio_3/mainb.i
+
+# target to preprocess a source file
+ejercicio_3/mainb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3b.dir\build.make CMakeFiles/ejercicio_3b.dir/ejercicio_3/mainb.c.i
+.PHONY : ejercicio_3/mainb.c.i
+
+ejercicio_3/mainb.s: ejercicio_3/mainb.c.s
+.PHONY : ejercicio_3/mainb.s
+
+# target to generate assembly for a file
+ejercicio_3/mainb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejercicio_3b.dir\build.make CMakeFiles/ejercicio_3b.dir/ejercicio_3/mainb.c.s
+.PHONY : ejercicio_3/mainb.c.s
 
 # Help Target
 help:
@@ -236,7 +273,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ejercicio_1
 	@echo ... ejercicio_2
-	@echo ... ejercicio_3
+	@echo ... ejercicio_3a
+	@echo ... ejercicio_3b
 	@echo ... ejercicio_1/main.obj
 	@echo ... ejercicio_1/main.i
 	@echo ... ejercicio_1/main.s
@@ -246,6 +284,9 @@ help:
 	@echo ... ejercicio_3/main.obj
 	@echo ... ejercicio_3/main.i
 	@echo ... ejercicio_3/main.s
+	@echo ... ejercicio_3/mainb.obj
+	@echo ... ejercicio_3/mainb.i
+	@echo ... ejercicio_3/mainb.s
 .PHONY : help
 
 
